@@ -1,0 +1,17 @@
+2023-05-22 18:05:336 INFO  HomePage :34 - click on customer login tab
+2023-05-22 18:05:775 INFO  OpenAccountPage :32 - search customer from drop down
+2023-05-22 18:05:345 INFO  CustomerLoginPage :37 - click on login button
+2023-05-22 18:05:878 INFO  CustomerLoginPage :32 - click on logout tab
+2023-05-22 18:05:148 INFO  CustomerLoginPage :41 - verify your name text
+2023-05-22 18:05:382 INFO  HomePage :34 - click on customer login tab
+2023-05-22 18:05:824 INFO  OpenAccountPage :32 - search customer from drop down
+2023-05-22 18:05:230 INFO  CustomerLoginPage :37 - click on login button
+2023-05-22 18:05:518 INFO  CustomersPage :37 - click on deposit tab
+2023-05-22 18:05:678 INFO  CustomersPage :41 - enter amount in amount field
+2023-05-22 18:05:997 INFO  CustomersPage :45 - click on deposit button
+2023-05-22 18:05:109 INFO  CustomersPage :49 - verify deposit successful message
+2023-05-22 18:05:889 INFO  HomePage :34 - click on customer login tab
+2023-05-22 18:05:458 INFO  OpenAccountPage :32 - search customer from drop down
+2023-05-22 18:05:121 INFO  CustomerLoginPage :37 - click on login button
+2023-05-22 18:05:258 INFO  CustomersPage :53 - click on withdrawl tab
+2023-05-22 18:05:578 INFO  CustomersPage :41 - enter amount in amount field

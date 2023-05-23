@@ -1,0 +1,426 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7312501100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Customer should login and logout successfully.",
+        "description": "",
+        "id": "bank-test;customer-should-login-and-logout-successfully.",
+        "after": [
+          {
+            "result": {
+              "duration": 168800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1163135400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on Customer Login Tab",
+            "match": {
+              "location": "BankTestSteps.iClickOnCustomerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 559548800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I search for customer",
+            "match": {
+              "location": "BankTestSteps.iSearchForCustomer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 513013400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on Login Button",
+            "match": {
+              "location": "BankTestSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am on customers account page",
+            "match": {
+              "location": "BankTestSteps.iAmOnCustomersAccountPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I verify Logout Tab displayed.",
+            "match": {
+              "location": "BankTestSteps.iVerifyLogoutTabDisplayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274990100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on Logout",
+            "match": {
+              "location": "BankTestSteps.iClickOnLogout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I am loged out of the customer account",
+            "match": {
+              "location": "BankTestSteps.iAmLogedOutOfTheCustomerAccount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87810700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I verify Your Name text displayed.",
+            "match": {
+              "location": "BankTestSteps.iVerifyYourNameTextDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6135922400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Customer should deposit money successfully.",
+        "description": "",
+        "id": "bank-test;customer-should-deposit-money-successfully.",
+        "after": [
+          {
+            "result": {
+              "duration": 36300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 439700100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I click on Customer Login Tab",
+            "match": {
+              "location": "BankTestSteps.iClickOnCustomerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 403269200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I search customer",
+            "match": {
+              "location": "BankTestSteps.iSearchCustomer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 270867100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on Login Button",
+            "match": {
+              "location": "BankTestSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I am on customers account page",
+            "match": {
+              "location": "BankTestSteps.iAmOnCustomersAccountPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 159946900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click on Deposit Tab",
+            "match": {
+              "location": "BankTestSteps.iClickOnDepositTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 325700200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I Enter amount 100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 15
+                }
+              ],
+              "location": "BankTestSteps.iEnterAmount(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104552100,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I click on Deposit Button",
+            "match": {
+              "location": "BankTestSteps.iClickOnDepositButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89636800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I verify message: Deposit Successful",
+            "match": {
+              "location": "BankTestSteps.iVerifyMessageDepositSuccessful()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 38,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4685819700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Customer should withdraw money successfully",
+        "description": "",
+        "id": "bank-test;customer-should-withdraw-money-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 37000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 567261700,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click on Customer Login Tab",
+            "match": {
+              "location": "BankTestSteps.iClickOnCustomerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 660788900,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I search customer",
+            "match": {
+              "location": "BankTestSteps.iSearchCustomer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129896700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click on Login Button",
+            "match": {
+              "location": "BankTestSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19600,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I am on customers account page",
+            "match": {
+              "location": "BankTestSteps.iAmOnCustomersAccountPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 317847900,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I click on Withdrawl Tab",
+            "match": {
+              "location": "BankTestSteps.iClickOnWithdrawlTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 575190000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I Enter amount 50",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 15
+                }
+              ],
+              "location": "BankTestSteps.iEnterAmount(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I click on Withdrawl Button",
+            "match": {
+              "location": "BankTestSteps.iClickOnWithdrawlButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I verify message: Transaction Successful",
+            "match": {
+              "location": "BankTestSteps.iVerifyMessageTransactionSuccessful()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 49,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Bank Test",
+    "description": "As a User I want to login into xyz bank and perform some actions.",
+    "id": "bank-test",
+    "keyword": "Feature",
+    "uri": "banktest.feature"
+  }
+]
